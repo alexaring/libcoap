@@ -22,7 +22,7 @@
 #include <errno.h>
 #include <signal.h>
 
-#include "config.h"
+
 #include "uthash.h"
 #include "coap.h"
 

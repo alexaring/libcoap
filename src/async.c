@@ -13,7 +13,7 @@
 
 #ifndef WITHOUT_ASYNC
 
-#include "config.h"
+
 
 #include "utlist.h"
 

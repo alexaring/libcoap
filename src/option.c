@@ -8,7 +8,7 @@
  */
 
 
-#include "config.h"
+
 
 #if defined(HAVE_ASSERT_H) && !defined(assert)
 # include <assert.h>

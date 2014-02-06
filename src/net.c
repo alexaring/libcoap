@@ -6,7 +6,7 @@
  * README for terms of use. 
  */
 
-#include "config.h"
+
 
 #include <ctype.h>
 #include <stdio.h>
