@@ -74,7 +74,7 @@ AC_TYPE_SSIZE_T
 AC_FUNC_MALLOC
 AC_CHECK_FUNCS([memset select socket strcasecmp strrchr getaddrinfo strnlen])
 
-libcoap_CFLAGS="-Wall"
+libcoap_CFLAGS="-Wall -DWITH_POSIX"
 AC_SUBST([libcoap_CFLAGS])
 
 AC_CONFIG_HEADERS(config.h)

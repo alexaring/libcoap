@@ -8,4 +8,4 @@ Description: Lightweight application-protocol for devices that are constrained t
 Version: @VERSION@
 Libs: -L${libdir} -lcoap
 Libs.private:
-Cflags: -I${includedir}
+Cflags: -DWITH_POSIX -I${includedir}

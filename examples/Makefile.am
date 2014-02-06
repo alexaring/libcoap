@@ -1,5 +1,5 @@
 AM_LDFLAGS = $(top_builddir)/src/libcoap.la
-AM_CFLAGS = -I $(top_builddir)/src/coap -include $(top_builddir)/config.h
+AM_CFLAGS = -DWITH_POSIX -I $(top_builddir)/src/coap -include $(top_builddir)/config.h
 
 bin_PROGRAMS = \
 	coap-client \
