@@ -1,0 +1,6 @@
+.deps
+.libs
+client.o
+coap-client
+coap-server
+server.o

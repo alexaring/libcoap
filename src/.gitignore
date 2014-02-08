@@ -1,0 +1,17 @@
+.deps
+.libs
+async.lo
+block.lo
+coap_list.lo
+debug.lo
+encode.lo
+hashkey.lo
+libcoap.la
+libcoap.pc
+net.lo
+option.lo
+pdu.lo
+resource.lo
+str.lo
+subscribe.lo
+uri.lo
